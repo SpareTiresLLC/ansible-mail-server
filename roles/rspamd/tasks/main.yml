@@ -8,7 +8,7 @@
 
 - name: Add rspamd repository
   apt_repository:
-    repo: "deb http://rspamd.com/apt-stable/ bullseye main"
+    repo: "deb http://rspamd.com/apt-stable/ focal main"
     state: present
 
 - name: Install packages
